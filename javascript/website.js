@@ -9,7 +9,10 @@ $(window).scroll(function(){
    });
 
    $('.msg-me').css({
-       'transform' : 'translate(0, '+ wScroll /1 +'%)'
+       'transform' : 'translate(0px, '+ wScroll /1 +'%)'
+   });
+   $('.scroll').css({
+       'transform' : 'translate(-50%, '+ wScroll /1 +'%)'
    });
 
 
@@ -52,4 +55,10 @@ $(document).ready(function() {
   $(".burger-container").on('click',function () {
       $(this).toggleClass("open");
   });
+});
+
+  $(document).ready(function() {
+    $(".burger-container").on('click',function () {
+        $("body").toggleClass("menu-open");
+    });
 });

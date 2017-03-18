@@ -51,6 +51,7 @@ hr{
   width: 100px;
   top: 20px;
   right: -5px;
+
 }
 .burger-3{
   display: block;
@@ -94,6 +95,49 @@ hr{
     top: 5px;
 }
 
+.menu-side{
+  background-color: rgba(20, 20, 20, 0.95);
+  position: fixed;
+  top: 0px;
+  left: -110%;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  z-index: 15;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+}
+
+.menu-open .menu-side {
+  left: 0px;
+  opacity: 1;
+}
+
+
+ul{
+  margin-top: 300px;
+}
+
+li {
+  margin-bottom: 100px;
+}
+
+a{
+  color: white;
+  font-size: 2.25rem;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+li a:hover {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #2b9871;
+}
+
+
+
 /***********  BACKGROUND ****************/
 
 .background{
@@ -132,19 +176,20 @@ hr{
   position: absolute;
 }
 
-@media only screen and (max-width: 1300px) {
+
+@media screen and (max-width: 1300px) {
   .banner .banner-h3{
     left: 10%;
   }
 }
 
-@media only screen and (max-width: 1130px) {
+@media screen and (max-width: 1130px) {
   .banner .banner-h3{
     font-size: 1.8rem;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .banner .banner-h3{
     font-size: 1.4rem;
   }
@@ -164,12 +209,14 @@ hr{
   bottom: 10vh;
   left: 50%;
   transform: translateX(-50%);
-  position: fixed;
+  position: absolute;
 }
 
 .text-bold {
   font-weight: bold;
 }
+
+
 /********END HEADER*************/
 
 .content{
@@ -407,10 +454,10 @@ transform: scale(1);
   width: 40px;
   height: 40px;
   position: absolute;
-  bottom: -70px;
+  bottom: -30px;
+  right: 10px;
   cursor: pointer;
 }
-
 
 
 /***********END SECTION 4**********/
@@ -472,6 +519,17 @@ footer .copyright{
 footer .copyright img{
   cursor: pointer;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1350px) {
+  footer .copyright{
+    left: 34%;
+  }
+
+  @media screen and (max-width: 1050px) {
+    footer .copyright{
+      left: 30%;
+    }
 }
 
 /********FOOTER END********/
