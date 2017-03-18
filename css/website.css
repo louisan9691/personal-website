@@ -128,19 +128,25 @@ hr{
   /*font-size: 1.5rem;*/
   width: 100vw;
   top: 55%;
-  left: 25%;
+  left: 20%;
   position: absolute;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1300px) {
   .banner .banner-h3{
     left: 10%;
   }
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1130px) {
   .banner .banner-h3{
     font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .banner .banner-h3{
+    font-size: 1.4rem;
   }
 }
 
