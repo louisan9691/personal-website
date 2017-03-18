@@ -5,7 +5,7 @@ $(window).scroll(function(){
   });
    /*when user scrolls, logo is moved down half the user's scroll speed*/
    $('.banner-h3').css({
-       'transform' : 'translate(0px, '+ wScroll /0.5 +'%)'
+       'transform' : 'translate(0px, '+ wScroll /0.5+'%)'
    });
 
    $('.msg-me').css({

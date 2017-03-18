@@ -112,7 +112,7 @@ hr{
   font-family: roboto, sans-serif;
 }
 
-.banner h1 {
+.banner .banner-h1 {
   font-family: futura, sans-serif;
   font-size: 18rem;
   width:40vw;
@@ -125,10 +125,23 @@ hr{
 .banner .banner-h3 {
   font-weight: lighter;
   font-size: 2.250rem;
-  width: 75vw;
-  top: 50%;
+  /*font-size: 1.5rem;*/
+  width: 100vw;
+  top: 55%;
   left: 25%;
   position: absolute;
+}
+
+@media only screen and (max-width: 1400px) {
+  .banner .banner-h3{
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .banner .banner-h3{
+    font-size: 1.8rem;
+  }
 }
 
 .msg-me {
