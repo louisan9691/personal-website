@@ -6,11 +6,15 @@
   line-height: 2.5rem;
   letter-spacing: 0.063rem;
   font-size: 1rem;
+  box-sizing: border-box;
 }
+
 
 body{
   background-color: #f7f7f7;
   overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
 }
 
 hr{
@@ -352,7 +356,6 @@ li a:hover {
   transform: scale(1.1);
 }
 
-
 .section-2 .is-showing {
 opacity: 1;
 transform: translateX(0px);
@@ -536,3 +539,9 @@ footer .copyright img{
 }
 
 /********FOOTER END********/
+@media screen and (max-width: 900px){
+  html, body{
+  width: 1000px;
+  overflow-x: hidden;
+  }
+}
