@@ -1,0 +1,295 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #676767;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 2.5rem;
+  letter-spacing: 0.063rem;
+  font-size: 1.2rem;
+}
+
+
+body{
+  background-color: white;
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+header{
+  position: relative;
+}
+
+header  .logo-about-me{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 80px;
+}
+
+.content{
+  display: block;
+}
+
+
+.about-me{
+  position: relative;
+  top: 30vh;
+  margin: 50px 50px;
+}
+
+.about-me h1{
+  font-family: RozhaOne-Regular, serif;
+  font-weight: lighter;
+  font-size: 210px;
+  letter-spacing: -0.96px;
+  line-height: 124px;
+  background: -webkit-linear-gradient(#CB6DF3, #FF5CA7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-me h1 span{
+  font-family: RozhaOne, serif;
+  font-weight: lighter;
+  font-size: 120px;
+  margin-bottom: 20px;
+}
+
+.about-me img{
+  padding: 1px 1px 60px 2px;
+  width: 300px;
+  height: 300px;
+  border-radius: 2%;
+  border: 3px solid #f7f7f7;
+  box-shadow: 8px 8px 8px #888888;
+  position: absolute;
+  top: -5vh;
+  left: 60vw;
+}
+
+.about-me  p {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about-me  .paragraph {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+
+/**********EXPERIENCES SECTION************/
+.experiences{
+  position: relative;
+  top: 40vh;
+  margin: 50px 50px;
+}
+
+
+.experiences .blue-box, .education .yellow-box, .awards .green-box, .skills .red-box{
+  width: 50px;
+  height: 50px;
+  background-color: #4285F4;
+  position: relative;
+  left: -80px;
+  top: 45px;
+}
+
+.experiences h3, .education h3, .awards h3,  .skills h3{
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.experiences h2, .education h2, .awards h2{
+  font-family: RozhaOne-Regular, serif;
+  font-size: 160px;
+  font-weight: bold;
+  position: relative;
+  left: -80px;
+}
+
+.experiences h4, .education h4, .awards h4 {
+  margin-top: 50px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+
+.middle {
+  margin-top: 200px;
+}
+
+.middle h2 {
+  position: relative;
+  left: 30%;
+}
+.middle h4, .middle p{
+  width: 100%;
+  position: relative;
+  left: 30%;
+}
+
+.right {
+  width: 50vw;
+  margin-top: 150px;
+}
+
+.right h2 {
+  left: 45vw;
+  top: 100px;
+  position: relative;
+}
+
+
+
+.education {
+  position: relative;
+  top: 50vh;
+  padding-left: 50px;
+  background-color: #f7f7f7;
+
+}
+
+.education .yellow-box{
+  background-color: #FBBC05;
+
+}
+
+.education h2 {
+    font-size: 140px;
+    left: -50px;
+}
+
+.awards {
+  position: relative;
+  top: 65vh;
+  padding-left: 50px;
+  margin-bottom: 200px;
+}
+
+ .awards .green-box {
+   background-color: #34A853;
+ }
+
+.awards .flex {
+  display: flex;
+  text-align: center;
+}
+
+  .awards .flex-1{
+  flex: 1;
+}
+
+  .awards h2 {
+    top: -30px;
+    left: 0px;
+  }
+
+  .awards p {
+    font-size: 0.8rem;
+  }
+
+  .skills {
+    position: relative;
+    top: 65vh;
+    padding-left: 50px;
+    background-color: #f7f7f7;
+    padding-bottom: 200px
+  }
+
+  .skills .red-box {
+    background-color: #EA4335;
+  }
+
+  .skills .flex {
+    flex-wrap: wrap;
+  }
+
+  .skills img {
+    flex: 1;
+    padding: 10px;
+    margin-right: 200px;
+    margin-top: 50px;
+  }
+
+
+footer{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  top: 65vh;
+
+}
+
+footer .footer-logo{
+  flex: 1;
+  position: relative;
+}
+
+
+.footer-logo img{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 20px;
+}
+
+
+footer .contact{
+  flex: 5;
+  margin-left: 50px;
+  padding-top: 10px;
+
+}
+
+footer .contact h4 {
+  color: white;
+  font-size: 12px;
+  line-height: 1.2rem;
+}
+
+footer .copyright h4 {
+  color: white;
+  font-size: 10px;
+  line-height: 1.2rem;
+}
+
+
+footer .copyright{
+  padding-top: 5px;
+  flex: 5;
+  position: relative;
+  left: 38%;
+  margin-right: 10vw;
+
+}
+
+footer .copyright img{
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1350px) {
+  footer .copyright{
+    left: 34%;
+  }
+
+  @media screen and (max-width: 1050px) {
+    footer .copyright{
+      left: 30%;
+    }
+}
