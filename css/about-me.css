@@ -293,3 +293,13 @@ footer .copyright img{
       left: 30%;
     }
 }
+
+/********FOOTER END********/
+
+
+@media screen and (max-width: 900px){
+  html, body{
+  width: 1000px;
+  overflow-x: hidden;
+  }
+}
