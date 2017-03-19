@@ -239,10 +239,11 @@ li a:hover {
   flex: 1;
   width: 100%;
   height: 100%;
-  margin: 150px 50px;
+  margin: 100px 50px;
 }
 
 .section-1 img {
+  width: 100%;
   padding: 10px 10px;
   border: 1px solid #f7f7f7;
   background-color: white;
@@ -252,6 +253,7 @@ li a:hover {
   transition: all 1s ease-in-out;
   border-radius: 20px;
 }
+
 
 .section-1 img:hover{
   transform: scale(1.1);
@@ -335,7 +337,8 @@ li a:hover {
 
 .section-2 img{
   align-self: center;
-  padding: 30px 30px;
+  padding: 10px 10px;
+  width: 100%;
   border: 3px solid white;
   background-color: white;
   box-shadow: 5px 5px 5px #888888;
