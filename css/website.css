@@ -134,7 +134,7 @@ a{
   font-weight: lighter;
 }
 
-li a:hover {
+li a:hover, li a:focus, li a:active {
   font-size: 2.5rem;
   font-weight: normal;
   color: #2b9871;
@@ -210,7 +210,7 @@ li a:hover {
 
 .banner .scroll {
   font-size: 0.8rem;
-  bottom: 10vh;
+  bottom: 13vh;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
@@ -372,6 +372,7 @@ transform: translateX(0px);
 
 .content-3-flex{
   flex: 2;
+
 }
 
 .section-3 .content-3-flex h2 {
@@ -544,4 +545,31 @@ footer .copyright img{
   width: 1000px;
   overflow-x: hidden;
   }
+}
+
+  @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+
+      .banner .scroll {
+        bottom: 15vh;
+      }
+
+      .background{
+       background-image: url("../images/background-mobile-2.png");
+      }
+
+      .section-4 h3 blockquote{
+        font-size: 0.8rem;
+      }
+
+      .section-2{
+        margin: 0px 30px 200px 10px;
+      }
+
+      .content-3-flex{
+        margin-top: -20px;
+      }
 }
